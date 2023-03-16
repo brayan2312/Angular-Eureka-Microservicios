@@ -1,0 +1,25 @@
+git init
+git add .
+git commit -m "comentario"
+
+git remote add origin https://github.com/brayan2312/Angular-Eureka.git
+git branch -M main
+git push -u origin main
+
+git tag -a v0.17.0 -m "comentario"
+git push --tags
+
+**********************************
+
+git init
+git add .
+git commit -m "comentario"
+git push
+----------------------------
+git tag // para ver los tags
+git remote -v // Para ver el repositorio
+git tag -a v0.18.0 -m "comentario"
+git push --tags
+
+npm install
+
